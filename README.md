@@ -36,6 +36,7 @@ geth --rinkeby --rpc --rpcapi="personal,eth,network,web3,net" --ipcpath="~/Libra
 ```bash
 geth attach // Console
 
+geth --rinkeby account new // Creates new account
 ```
 
 Commands in Console
