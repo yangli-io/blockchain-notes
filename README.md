@@ -8,7 +8,7 @@ https://www.npmjs.com/package/truffle
 Truffle is the CLI to deploy and run tests
 
 Useful Commands
-```sol
+```bash
 truffle compile
 
 truffle console
@@ -33,4 +33,12 @@ Running Geth on rinkeby
 geth --rinkeby --rpc --rpcapi="personal,eth,network,web3,net" --ipcpath="~/Library/Ethereum/geth.ipc"
 ```
 
+```bash
+geth attach // Console
 
+```
+
+Commands in Console
+```bash
+eth.syncing // Get the current blocks;
+```
