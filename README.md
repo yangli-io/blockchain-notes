@@ -45,3 +45,5 @@ eth.syncing // Get the current blocks;
 ```
 
 rinkeby.etherscan.io
+
+faucet.rinkeby.io
