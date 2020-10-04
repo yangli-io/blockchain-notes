@@ -30,7 +30,7 @@ Geth is a go version of ethereum
 
 Running Geth on rinkeby
 ```bash
-geth --rinkeby --rpc --rpcapi="personal,eth,network,web3,net" --ipcpath="~/Library/Ethereum/geth.ipc"
+geth --rinkeby --rpc --allow-insecure-unlock --rpcapi="personal,eth,network,web3,net" --ipcpath="~/Library/Ethereum/geth.ipc"
 ```
 
 ```bash
