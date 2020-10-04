@@ -16,6 +16,8 @@ truffle console
 truffle migrate --reset // deploy the new contract
 
 truffle test
+
+truffle migrate --reset --compile-all --network rinkeby
 ```
 
 ### Ganache
